@@ -6,3 +6,6 @@ https://wiki.archlinux.org/title/Python_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0
 команды venv
 python -m venv .venv --prompt x1
 . .venv/bin/activate
+
+docker compose up
+docker container ls
