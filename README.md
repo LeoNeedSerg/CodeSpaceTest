@@ -9,3 +9,4 @@ python -m venv .venv --prompt x1
 
 docker compose up
 docker container ls
+docker compose down
