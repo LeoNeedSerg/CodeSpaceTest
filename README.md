@@ -7,6 +7,12 @@ https://wiki.archlinux.org/title/Python_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0
 python -m venv .venv --prompt x1
 . .venv/bin/activate
 
+закачка в venv библеотек
+pip freeze > requirements.txt - фиксирование версий
+pip install -r requirements.txt - закачка их из рекваирменс
+
+управление пакетом дженга
 docker compose up
 docker container ls
 docker compose down
+
