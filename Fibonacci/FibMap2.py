@@ -17,7 +17,7 @@ if __name__ == '__main__':
     # create the process pool
     with ProcessPoolExecutor() as executor:
         # fibonacci numbers to calculate
-        numbers = range(5000)
+        numbers = range(500)
         # calculate concurrently
         fibs = executor.map(fibonacci, numbers)
         # store results
